@@ -31,3 +31,13 @@ Takes in raw text and returns a summarized version.
 ```http
 POST http://<your-ec2-ip>:5050/summarize
 Content-Type: application/json
+
+{
+  "text": "This is Treizean OpenAI Text Summary model. It accepts text input and returns a short summary powered by GPT-3.5. This API can be used for fast summarization of articles, notes, or documentation."
+}
+
+{
+  "summary": "Treizean's OpenAI model summarizes input text using GPT-3.5 for quick, concise results."
+}
+
+
